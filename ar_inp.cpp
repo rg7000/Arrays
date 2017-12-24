@@ -40,6 +40,9 @@ int main()
     obj.set_n();
     N = obj.get_n();
     int a[N];
+    cin>>N;
+    int a[N];
+    arr_op obj;
     obj.initialize_arr(a,N);
     obj.print(a,N);
 
